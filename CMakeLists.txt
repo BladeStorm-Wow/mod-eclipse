@@ -22,4 +22,4 @@ endif()
 
 add_library(sol INTERFACE)
 target_include_directories(sol INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/src/sol)
-target_link_libraries(sol3 INTERFACE lualib)
+target_link_libraries(sol INTERFACE lualib)
